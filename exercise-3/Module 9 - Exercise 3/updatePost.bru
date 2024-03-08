@@ -1,0 +1,20 @@
+meta {
+  name: updatePost
+  type: http
+  seq: 7
+}
+
+put {
+  url: http://localhost:8082/api/users/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Oliver",
+    "lastName": "Sykes",
+    "emailId": "oliver@user.com",
+    "password": "123456"
+  }
+}

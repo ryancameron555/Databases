@@ -1,0 +1,20 @@
+meta {
+  name: updatePosts
+  type: http
+  seq: 7
+}
+
+put {
+  url: http://localhost:8080/api/posts/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Bob",
+    "content": "Dylan",
+    "authorId": "bob@user.com",
+    "image": "/images/blogImage1.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65b45ee1601f8f591edaac06"
+  },
+  "Title": "Mat's First Post",
+  "Content": "Content of Mat's post",
+  "Author": "Mat",
+  "CreatedDate": {
+    "$date": "2024-01-27T01:39:45.562Z"
+  },
+  "Image": "url_to_mat_post_image"
+},
+{
+  "_id": {
+    "$oid": "65b45ee1601f8f591edaac07"
+  },
+  "Title": "Ash's Adventure",
+  "Content": "Content of Ash's post",
+  "Author": "Ash",
+  "CreatedDate": {
+    "$date": "2024-01-27T01:39:45.562Z"
+  },
+  "Image": "url_to_ash_post_image"
+},
+{
+  "_id": {
+    "$oid": "65b45ee1601f8f591edaac08"
+  },
+  "Title": "Ryan's Tech Tips",
+  "Content": "Content of Ryan's post",
+  "Author": "Ryan",
+  "CreatedDate": {
+    "$date": "2024-01-27T01:39:45.562Z"
+  },
+  "Image": "url_to_ryan_post_image"
+}]

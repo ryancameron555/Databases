@@ -1,0 +1,17 @@
+meta {
+  name: createDog
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/dogs/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "breedName": "1"
+  }
+}

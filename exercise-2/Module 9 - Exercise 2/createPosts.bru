@@ -1,0 +1,20 @@
+meta {
+  name: createPosts
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/api/posts/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "My first Blog",
+    "emailId": "ryan@user.com",
+    "content": "This is content for my first blog",
+    "image": "/images/blogImage1.jpg"
+  }
+}

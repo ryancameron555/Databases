@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "65b45e44601f8f591edaac03"
+  },
+  "username": "Mat",
+  "email": "mat@example.com",
+  "password": "hashed_password_mat",
+  "UserID": "mat_user_id"
+},
+{
+  "_id": {
+    "$oid": "65b45e44601f8f591edaac04"
+  },
+  "username": "Ash",
+  "email": "ash@example.com",
+  "password": "hashed_password_ash",
+  "UserID": "ash_user_id"
+},
+{
+  "_id": {
+    "$oid": "65b45e44601f8f591edaac05"
+  },
+  "username": "Ryan",
+  "email": "ryan@example.com",
+  "password": "hashed_password_ryan",
+  "UserID": "ryan_user_id"
+}]
